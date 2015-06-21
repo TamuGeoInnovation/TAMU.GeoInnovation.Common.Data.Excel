@@ -1,7 +1,0 @@
-C:\DevBuild\Tamu\GeoInnovation\Common\Data\Excel\build\1.0.0\release\TAMU.GeoInnovation.Common.Data.Excel.dll
-C:\DevBuild\Tamu\GeoInnovation\Common\Data\Excel\build\1.0.0\release\TAMU.GeoInnovation.Common.Data.Excel.pdb
-C:\DevSource\Tamu\GeoInnovation\Common\Data\Excel\Src\Main\obj\Release\Common.Data.Excel.csproj.ResolveComReference.cache
-C:\DevSource\Tamu\GeoInnovation\Common\Data\Excel\Src\Main\obj\Release\TAMU.GeoInnovation.Common.Data.Excel.dll
-C:\DevSource\Tamu\GeoInnovation\Common\Data\Excel\Src\Main\obj\Release\TAMU.GeoInnovation.Common.Data.Excel.pdb
-C:\DevSource\Tamu\GeoInnovation\Common\Data\Excel\build\1.0.0\AnyCPU\release\TAMU.GeoInnovation.Common.Data.Excel.dll
-C:\DevSource\Tamu\GeoInnovation\Common\Data\Excel\build\1.0.0\AnyCPU\release\TAMU.GeoInnovation.Common.Data.Excel.pdb
