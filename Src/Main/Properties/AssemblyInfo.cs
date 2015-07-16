@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Texas A&M University")]
 [assembly: AssemblyProduct("TAMU.GeoInnovation.Common.Data.Excel")]
-[assembly: AssemblyCopyright("Copyright ©  University of Southern California 2015")]
+[assembly: AssemblyCopyright("Copyright ©  Texas A&M University 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
