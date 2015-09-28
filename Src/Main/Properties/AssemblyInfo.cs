@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TAMU.GeoInnovation.Common.Data.Excel")]
+[assembly: AssemblyTitle("Tamu.GeoInnovation.Common.Data.Excel")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Texas A&M University")]
-[assembly: AssemblyProduct("TAMU.GeoInnovation.Common.Data.Excel")]
+[assembly: AssemblyProduct("Tamu.GeoInnovation.Common.Data.Excel")]
 [assembly: AssemblyCopyright("Copyright ©  Texas A&M University 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
