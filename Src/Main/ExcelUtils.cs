@@ -1,23 +1,23 @@
-using System;
-using System.Data.OleDb;
 using Microsoft.Office.Interop.Excel;
-using DataTable=System.Data.DataTable;
-using System.Data;
+using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.OleDb;
+using DataTable = System.Data.DataTable;
 
 namespace USC.GISResearchLab.Common.Utils.Excel
 {
-	/// <summary>
-	/// Summary description for ExcelUtils.
-	/// </summary>
-	public class ExcelUtils
-	{
-		public ExcelUtils()
-		{
-			//
-			// TODO: Add constructor logic here
-			//
-		}
+    /// <summary>
+    /// Summary description for ExcelUtils.
+    /// </summary>
+    public class ExcelUtils
+    {
+        public ExcelUtils()
+        {
+            //
+            // TODO: Add constructor logic here
+            //
+        }
 
         public static DataTable ReadExcel2000FirstSheet(string fileName)
         {
@@ -127,7 +127,7 @@ namespace USC.GISResearchLab.Common.Utils.Excel
         public static List<DataTable> ReadExcel2007Sheets(string fileName, bool firstRowHeader, bool readAllAsText)
         {
             List<DataTable> ret = new List<DataTable>();
-            
+
 
 
             string connString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + fileName + ";Extended Properties=\"Excel 12.0 Xml";
@@ -192,18 +192,18 @@ namespace USC.GISResearchLab.Common.Utils.Excel
             return ret;
         }
 
-		public static void ConvertHTMLTableToExcel2000(string fileName)
-		{
+        public static void ConvertHTMLTableToExcel2000(string fileName)
+        {
             Application xlApp = new Application();
-			//xlApp.Workbooks.Open(@"C:\Projects\mamour\AggValueHistory\default.htm", null);
-			Workbook theWorkbook = xlApp.Workbooks.Open( fileName, 0, true, 5, "", "", true, XlPlatform.xlWindows, "\t", false, false,0, true, 1, 0);
-			xlApp.ActiveWorkbook.SaveAs(fileName + ".xls", -4143, "", "", false, false, XlSaveAsAccessMode.xlShared,false, true, false, false, false);
-			if (xlApp != null)
-			{
-				xlApp.ActiveWorkbook.Close(false, fileName, false);
-				xlApp.Quit();
-				xlApp = null;
-			}
-		}
-	}
+            //xlApp.Workbooks.Open(@"C:\Projects\mamour\AggValueHistory\default.htm", null);
+            Workbook theWorkbook = xlApp.Workbooks.Open(fileName, 0, true, 5, "", "", true, XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
+            xlApp.ActiveWorkbook.SaveAs(fileName + ".xls", -4143, "", "", false, false, XlSaveAsAccessMode.xlShared, false, true, false, false, false);
+            if (xlApp != null)
+            {
+                xlApp.ActiveWorkbook.Close(false, fileName, false);
+                xlApp.Quit();
+                xlApp = null;
+            }
+        }
+    }
 }
